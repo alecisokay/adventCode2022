@@ -1001,9 +1001,12 @@ let valArr = [[[24,66],[23,25]],
 
 // iterate through the arrays and compare values
 
-let count = 0;
+
+//part 1 check if one contains the other
+ let count = 0;
 valArr.forEach(el =>{
     if((el[0][0] >= el[1][0] && el[0][1] <= el[1][1]) || (el[1][0] >= el[0][0] && el[1][1] <= el[0][1])) count +=1;
 })
-
 console.log(count);
+
+
