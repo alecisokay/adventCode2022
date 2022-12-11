@@ -1,3 +1,6 @@
+
+// similiar to day one i just used sed to clean up their inputs
+
 let arr = ["C Y",
 "C Y",
 "C Y",
@@ -2504,6 +2507,8 @@ let arr = ["C Y",
 // Paper B/Y = 2; Y draw
 // Scissors C/Z = 3; Z win
 
+// part 1 is all the commented out values
+//part 2 is the ones not commented out.
 
 let i = 0;
 arr.forEach(el => {

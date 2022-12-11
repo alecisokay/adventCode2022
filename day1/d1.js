@@ -1,8 +1,13 @@
 
 
+// sed to clean up the input file day1.txt
 
-//sed '$!s/$/,/' file
-//sed 's/^,/],[/' file
+
+
+//sed '$!s/$/,/' day1.txt > dayT.txt
+//sed 's/^,/],[/' dayT.txt > dT.txt
+
+//could do an input but becuase its js just easier to copy past into an array.
 
 let arr = [[4887,
     9307,
@@ -2257,7 +2262,16 @@ let arr = [[4887,
 
     //// part 1
     // let j = 0;
+
+
+
+
+    // iterate over each array and find the sum
+    // if the sum of the current array at position [index] is greater than j then make j = sum else just do nothing.
    
+
+
+
     // arr.forEach(i =>{
     //     const sum1 = i.reduce((accumulator, value) => {
     //         return accumulator + value;
@@ -2276,6 +2290,7 @@ let arr = [[4887,
             }, 0);
         ar2.push(sum1);
     })
+    // they wanted the sum of the top 3 so i just sorted and summed the first 3 objects
 
     let highestToLowest = ar2.sort((a, b) => b-a);
 
