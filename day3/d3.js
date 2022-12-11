@@ -319,7 +319,7 @@ let arr2 = ["vJrwpWtwJgWrhcsFMMfFFhFp",
 let charmap= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" 
 //add it to a value
 let vals = 0;
-arr2.forEach(el => {
+arr.forEach(el => {
     // split it
     let middle = Math.floor(el.length / 2);
     let stringA = el.substr(0, middle);
